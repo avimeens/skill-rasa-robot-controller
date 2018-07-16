@@ -1,0 +1,36 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "stop robot",
+        "intent": "stop",
+        "entities": []
+      },
+      {
+        "text": "halt robot",
+        "intent": "stop",
+        "entities": []
+      },
+      {
+        "text": "robot stop",
+        "intent": "stop",
+        "entities": []
+      },
+      {
+        "text": "robot halt",
+        "intent": "stop",
+        "entities": []
+      },
+      {
+        "text": "robot do not move",
+        "intent": "stop",
+        "entities": []
+      },
+      {
+        "text": "stop moving",
+        "intent": "stop",
+        "entities": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,150 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "move forward 10 feet",
+        "intent": "move",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "forward",
+            "entity": "direction"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "10",
+            "entity": "distance"
+          },
+          {
+            "start": 16,
+            "end": 20,
+            "value": "feet",
+            "entity": "unit"
+          }
+        ]
+      },
+      {
+        "text": "move 3 meters back",
+        "intent": "move",
+        "entities": [
+          {
+            "start": 5,
+            "end": 6,
+            "value": "3",
+            "entity": "distance"
+          },
+          {
+            "start": 7,
+            "end": 13,
+            "value": "meters",
+            "entity": "unit"
+          },
+          {
+            "start": 14,
+            "end": 18,
+            "value": "back",
+            "entity": "direction"
+          }
+        ]
+      },
+      {
+        "text": "go 15 feet forward",
+        "intent": "move",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "15",
+            "entity": "distance"
+          },
+          {
+            "start": 6,
+            "end": 10,
+            "value": "feet",
+            "entity": "unit"
+          },
+          {
+            "start": 11,
+            "end": 18,
+            "value": "forward",
+            "entity": "direction"
+          }
+        ]
+      },
+      {
+        "text": "go back 36 inches",
+        "intent": "move",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "back",
+            "entity": "direction"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "36",
+            "entity": "distance"
+          },
+          {
+            "start": 11,
+            "end": 17,
+            "value": "inches",
+            "entity": "unit"
+          }
+        ]
+      },
+      {
+        "text": "move backward 7 feet",
+        "intent": "move",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "value": "backward ",
+            "entity": "direction"
+          },
+          {
+            "start": 14,
+            "end": 15,
+            "value": "7",
+            "entity": "distance"
+          },
+          {
+            "start": 16,
+            "end": 20,
+            "value": "feet",
+            "entity": "unit"
+          }
+        ]
+      },
+      {
+        "text": "move forward 2 meters",
+        "intent": "move",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "forward",
+            "entity": "direction"
+          },
+          {
+            "start": 13,
+            "end": 14,
+            "value": "2",
+            "entity": "distance"
+          },
+          {
+            "start": 15,
+            "end": 21,
+            "value": "meters",
+            "entity": "unit"
+          }
+        ]
+      }
+    ]
+  }
+}

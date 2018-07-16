@@ -1,0 +1,102 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "turn to your left",
+        "intent": "turn",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "left",
+            "entity": "direction"
+          }
+        ]
+      },
+      {
+        "text": "turn to your right",
+        "intent": "turn",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "right",
+            "entity": "direction"
+          }
+        ]
+      },
+      {
+        "text": "turn right 45 degrees",
+        "intent": "turn",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "right",
+            "entity": "direction"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "45",
+            "entity": "distance"
+          },
+          {
+            "start": 14,
+            "end": 21,
+            "value": "degrees",
+            "entity": "unit"
+          }
+        ]
+      },
+      {
+        "text": "turn left 90 degrees",
+        "intent": "turn",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "left",
+            "entity": "direction"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "90",
+            "entity": "distance"
+          },
+          {
+            "start": 13,
+            "end": 20,
+            "value": "degrees",
+            "entity": "unit"
+          }
+        ]
+      },
+      {
+        "text": "turn 30 degrees to your left",
+        "intent": "turn",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "30",
+            "entity": "distance"
+          },
+          {
+            "start": 8,
+            "end": 15,
+            "value": "degrees",
+            "entity": "unit"
+          },
+          {
+            "start": 24,
+            "end": 28,
+            "value": "left",
+            "entity": "direction"
+          }
+        ]
+      }
+    ]
+  }
+}
