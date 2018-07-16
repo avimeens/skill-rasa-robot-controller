@@ -7,9 +7,9 @@ class RasaRobotControllerSkill(MycroftSkill):
         MycroftSkill.__init__(self)
 
     def initialize(self):
-        self.register_rasa_intent('move.json', handle_robot_move)
-        self.register_rasa_intent('stop.json', handle_robot_stop)
-        self.register_rasa_intent('turn.json', handle_robot_turn)
+        self.register_rasa_intent('move.json', self.handle_robot_move)
+        self.register_rasa_intent('stop.json', self.handle_robot_stop)
+        self.register_rasa_intent('turn.json', self.handle_robot_turn)
 
     def handle_robot_move(self, message):
         distance = message.data.get("distance")
