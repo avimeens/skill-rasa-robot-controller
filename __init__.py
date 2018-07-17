@@ -46,6 +46,10 @@ class RasaRobotControllerSkill(MycroftSkill):
     def handle_robot_stop(self, message):
         self.speak_dialog('robot.stop')
 
+    def stop(self):
+        self.speak_dialog('robot.stop')
+        pass
+        
 def create_skill():
     return RasaRobotControllerSkill()
 
