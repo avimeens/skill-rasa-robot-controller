@@ -16,7 +16,7 @@ class RasaRobotControllerSkill(MycroftSkill):
     def handle_intent_error(self, message):
         self.utterance = message.data.get("prev_utt");
         if self.utterance is None:
-            self.speak_dialog('robot.exception.dialog')
+            self.speak_dialog('robot.exception')
             return
         resp = {'utt': self.utterance, 'intents': "move or turn or fetch"}
         intent = self.get_response(dialog='robot.query.user', data=resp)
