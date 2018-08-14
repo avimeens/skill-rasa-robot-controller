@@ -18,7 +18,7 @@ class RasaRobotControllerSkill(MycroftSkill):
         if self.utterance is None:
             self.speak_dialog('robot.exception')
             return
-        resp = {'utt': self.utterance, 'intents': "move or turn or fetch"}
+        resp = {'utt': self.utterance, 'intents': "move. or turn. or fetch"}
         intent = self.get_response(dialog='robot.query.user', data=resp)
         if intent is None:
             intent = self.get_response(dialog='robot.repeat.prompt')
