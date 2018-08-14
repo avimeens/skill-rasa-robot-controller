@@ -1,0 +1,31 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "That is wrong",
+        "intent": "error",
+        "entities": []
+      },
+      {
+        "text": "that is not what I meant",
+        "intent": "error",
+        "entities": []
+      },
+      {
+        "text": "that is not completely right",
+        "intent": "error",
+        "entities": []
+      },
+      {
+        "text": "that is not the right intent",
+        "intent": "error",
+        "entities": []
+      },
+      {
+        "text": "that is the wrong intent",
+        "intent": "error",
+        "entities": []
+      }
+    ]
+  }
+}
