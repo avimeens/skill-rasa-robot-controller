@@ -14,6 +14,7 @@ class RasaRobotControllerSkill(MycroftSkill):
         self.register_rasa_intent('error.json', self.handle_intent_error)
 
     def handle_intent_error(self, message):
+        self.utterance = message.data.get("prev_utt");
         if self.utterance is None:
             self.speak_dialog("This is embarrassing, I could not find the previous utterance")
             return
